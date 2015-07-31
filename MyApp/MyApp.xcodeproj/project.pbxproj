@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A666DE259DECE3BA441F1A56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A28BBEA807FBEECE6140BEF6 /* libPods.a */; };
+		F740DFD71B6B40E9002FEFA3 /* DBLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F740DFD61B6B40E9002FEFA3 /* DBLoginVC.m */; };
+		F740DFDA1B6B46D0002FEFA3 /* DBRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F740DFD91B6B46D0002FEFA3 /* DBRegisterVC.m */; };
 		F7ED01151B6B0CD1004D830D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED01141B6B0CD1004D830D /* main.m */; };
 		F7ED01181B6B0CD1004D830D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED01171B6B0CD1004D830D /* AppDelegate.m */; };
 		F7ED011B1B6B0CD1004D830D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED011A1B6B0CD1004D830D /* ViewController.m */; };
@@ -31,6 +33,10 @@
 		90BDBE0450D2B3E71F78B413 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		94B4E568F5B3D4148C134D13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A28BBEA807FBEECE6140BEF6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F740DFD51B6B40E9002FEFA3 /* DBLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginVC.h; sourceTree = "<group>"; };
+		F740DFD61B6B40E9002FEFA3 /* DBLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginVC.m; sourceTree = "<group>"; };
+		F740DFD81B6B46D0002FEFA3 /* DBRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRegisterVC.h; sourceTree = "<group>"; };
+		F740DFD91B6B46D0002FEFA3 /* DBRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRegisterVC.m; sourceTree = "<group>"; };
 		F7ED010F1B6B0CD1004D830D /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ED01131B6B0CD1004D830D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7ED01141B6B0CD1004D830D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +80,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F740DFD41B6B40C7002FEFA3 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				F740DFD51B6B40E9002FEFA3 /* DBLoginVC.h */,
+				F740DFD61B6B40E9002FEFA3 /* DBLoginVC.m */,
+				F740DFD81B6B46D0002FEFA3 /* DBRegisterVC.h */,
+				F740DFD91B6B46D0002FEFA3 /* DBRegisterVC.m */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
 		F7ED01061B6B0CD1004D830D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +114,7 @@
 		F7ED01111B6B0CD1004D830D /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				F740DFD41B6B40C7002FEFA3 /* LoginAndRegister */,
 				F7ED01161B6B0CD1004D830D /* AppDelegate.h */,
 				F7ED01171B6B0CD1004D830D /* AppDelegate.m */,
 				F7ED01191B6B0CD1004D830D /* ViewController.h */,
@@ -280,6 +298,8 @@
 			files = (
 				F7ED011B1B6B0CD1004D830D /* ViewController.m in Sources */,
 				F7ED01181B6B0CD1004D830D /* AppDelegate.m in Sources */,
+				F740DFDA1B6B46D0002FEFA3 /* DBRegisterVC.m in Sources */,
+				F740DFD71B6B40E9002FEFA3 /* DBLoginVC.m in Sources */,
 				F7ED01151B6B0CD1004D830D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
